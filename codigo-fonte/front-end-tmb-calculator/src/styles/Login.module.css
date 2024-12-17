@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f7fa;
+  }
+  
+  .loginBox {
+    background-color: white;
+    padding: 60px; /* Aumenta ainda mais o padding */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Aumenta significativamente a largura */
+    max-width: 90%;
+    text-align: center;
+  }
+  
+  .loginTitle {
+    margin-bottom: 40px; /* Mais espaço abaixo do título */
+    font-size: 2rem; /* Tamanho de fonte maior para destaque */
+    color: #333;
+  }
+  
+  .inputGroup {
+    margin-bottom: 25px; /* Espaçamento ainda maior entre os campos */
+    text-align: left;
+  }
+  
+  .inputLabel {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem; /* Tamanho de fonte maior */
+    color: #333;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 14px; /* Mais padding para campos ainda maiores */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem; /* Tamanho de fonte maior para legibilidade */
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 14px; /* Mais padding para um botão mais proeminente */
+    background-color: #000080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px; /* Espaçamento maior acima do botão */
+    font-size: 1.2rem; /* Tamanho de fonte maior para destaque */
+  }
+  
+  .links {
+    margin-top: 25px; /* Mais espaço acima dos links */
+  }
+  
+  .links a {
+    display: block;
+    color: #0070f3;
+    text-decoration: none;
+    margin-bottom: 8px; /* Espaçamento maior entre os links */
+    font-size: 1rem; /* Ajuste de tamanho de fonte */
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
