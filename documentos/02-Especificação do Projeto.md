@@ -61,13 +61,13 @@ Figma
 | RF-011  | O usuário (Nutricionista) poderá montar uma planilha com suas refeições diárias.     | ALTA      |
 | RF-012  | O usuário (Nutricionista) poderá consultar a tabela TACO e adicionar alimentos na sua planilha.           | ALTA       |
 | RF-013  | O usuário (Nutricionista) poderá cadastrar alimentos personalizados.                 | ALTA      |
-| RF-015  | O usuário (Nutricionista) poderá consultar uma tabela com as calorias de sua dieta.    | ALTA      |  
-| RF-016  | O usuário (Nutricionista) poderá informar dados sobre a evolução do cliente.     | MÉDIA      | 
-| RF-017  | O usuário (Nutricionista) poderá consultar um gráfico com a evolução do cliente.     | MÉDIA      | 
-| RF-018  | O usuário (Nutricionista) poderá compartilhar o gráfico com a evolução do cliente quando necessário.    | MÉDIA      | 
-| RF-019  | O usuário (Nutricionista) poderá baixar a planilha em PDF.                           | ALTA      | 
-| RF-020  | O usuário (Nutricionista) poderá enviar a planilha via E-Mail.                       | MÉDIA      | 
-| RF-021  | O usuário (Nutricionista) poderá enviar planilha via Whatsapp.                       | MÉDIA      | 
+| RF-014  | O usuário (Nutricionista) poderá consultar uma tabela com as calorias de sua dieta.    | ALTA      |  
+| RF-015  | O usuário (Nutricionista) poderá informar dados sobre a evolução do cliente.     | MÉDIA      | 
+| RF-016  | O usuário (Nutricionista) poderá consultar um gráfico com a evolução do cliente.     | MÉDIA      | 
+| RF-017  | O usuário (Nutricionista) poderá compartilhar o gráfico com a evolução do cliente quando necessário.    | MÉDIA      | 
+| RF-018  | O usuário (Nutricionista) poderá baixar a planilha em PDF.                           | ALTA      | 
+| RF-019  | O usuário (Nutricionista) poderá enviar a planilha via E-Mail.                       | MÉDIA      | 
+| RF-020  | O usuário (Nutricionista) poderá enviar planilha via Whatsapp.                       | MÉDIA      | 
 
 
 ### Requisitos não Funcionais
