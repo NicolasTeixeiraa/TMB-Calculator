@@ -1,12 +1,11 @@
 'use client';
 
-import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Header from "../components/Header";
 import "../styles/globals.css";
 import Head from "next/head";
 import { usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'; 
 import { metadata as staticMetadata } from './metadata'; 
 
 const geistSans = localFont({
@@ -31,7 +30,7 @@ export default function RootLayout({
   const description = String(staticMetadata.description || "Default description");
   const pathname = usePathname(); 
   const [showHeader, setShowHeader] = useState(false); 
-  const defaultPaddingTop = '20px';
+  const defaultPaddingTop = '20px'; 
   const [paddingTop, setPaddingTop] = useState(defaultPaddingTop); 
 
   useEffect(() => {
@@ -52,10 +51,10 @@ export default function RootLayout({
       >
         {showHeader && <Header />}
         <main style={{
-          paddingTop: paddingTop,
+          paddingTop: paddingTop,    
           paddingRight: '20px',   
           paddingBottom: '20px',  
-          paddingLeft: '20px'    
+          paddingLeft: '20px'     
         }}>
           {children}
         </main>
