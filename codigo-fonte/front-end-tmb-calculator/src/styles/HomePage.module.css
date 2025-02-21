@@ -1,25 +1,34 @@
 .title {
-    text-align: center;
-    color: #0066cc;
-    margin-top: 20px;
-  }
-  
-  .subtitle {
-    text-align: center;
-    color: #666;
-    margin-bottom: 20px;
-  }
-  
-  .grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .grid > div {
-    flex: 1 1 calc(25% - 40px); /* Responsivo para 4 por linha */
-    max-width: 300px;
-    min-width: 250px;
-  }
+  text-align: center;
+  color: #0066cc;
+  margin-top: 20px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.componentContainer {
+  flex: 1 1 calc(25% - 40px); /* Responsivo para 4 por linha */
+  max-width: 300px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+}
+
+.componentText {
+  text-align: left; /* Alinha o texto à esquerda */
+  margin-top: 5px;
+  color: #333;
+}

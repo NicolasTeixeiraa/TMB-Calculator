@@ -1,0 +1,43 @@
+/* Header.module.css */
+
+.header {
+    width: 100%;
+    padding: 10px 20px;
+    background: #0070f3;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin: 0; /* Garante que não há margens */
+  }
+  
+  .link {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+  }
+  
+  .link:hover {
+    color: #a0d4ff;
+  }
+  
+  .link:hover .logo {
+    transform: scale(1.1);
+  }
+  
+  .logo {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }

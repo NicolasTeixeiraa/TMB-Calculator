@@ -3,11 +3,13 @@ import ComponentTMB from '../../components/ComponentTMB';
 import ComponentIMC from '../../components/ComponentIMC';
 import ComponentRCA from '../../components/ComponentRCA';
 import ComponentCreatina from '../../components/ComponentCreatina';
-import styles from '../../styles/HomePage.module.css'; 
+import styles from '../../styles/HomePage.module.css';
+import Header from '../../components/Header';
 
 const HomePage: React.FC = () => {
   return (
     <div>
+      <Header />
       <h2 className={styles.title}>NOSSAS CALCULADORAS</h2>
       <p className={styles.subtitle}></p>
       <div className={styles.grid}>
